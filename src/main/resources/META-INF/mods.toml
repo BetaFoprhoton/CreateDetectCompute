@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU GPLv3"
+[[mods]]
+modId="createcompute"
+version="${file.jarVersion}"
+displayName="Create Detect & Compute"
+logoFile="CreateCompute.png"
+authors="Beta_forge1"
+credits=""
+description='''
+'''
+versionRange="[1.18,1.19)"
+ordering="NONE"
+side="BOTH"

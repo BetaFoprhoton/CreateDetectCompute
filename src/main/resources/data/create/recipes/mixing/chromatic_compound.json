@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:chromatic_compound",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "chance": 0.2
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "create:chromatic_compound",
+  "display": {
+    "icon": {
+      "item": "create:chromatic_compound"
+    },
+    "title": {
+      "translate": "advancement.create.chromatic_age"
+    },
+    "description": {
+      "translate": "advancement.create.chromatic_age.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "radiant_casing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "create:refined_radiance_casing"
+          }
+        ]
+      }
+    },
+    "shadow_casing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "create:shadow_steel_casing"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "refined_radiance_casing",
+      "shadow_steel_casing"
+    ]
+  ]
+}
